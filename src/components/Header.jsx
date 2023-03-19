@@ -62,9 +62,9 @@ const Header = () => {
           />
         )}
         <div
-          className={` absolute top-24 right-0 px-4 h-screen  bg-stone-500/40 transition duration-700 delay-200 ease-in-out  ${navHandler}`}
+          className={` fixed top-24 right-0 px-4 h-screen  bg-[#4c4a76] transition duration-700 delay-200 ease-in-out  ${navHandler}`}
         >
-          <div className="flex flex-col  gap-4 transition duration-700 delay-200 ease-in-out">
+          <div className="flex flex-col  gap-4 transition duration-700 delay-200 ease-in-out text-white">
             <div
               to="/"
               className="text-xl font-base pt-4  w-36 py-1  "
